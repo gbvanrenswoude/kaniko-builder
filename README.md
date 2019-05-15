@@ -2,6 +2,9 @@
 
 Build docker images without needing privileged access in a second.
 
+### Image
+gbvanrenswoude/kaniko-builder:latest
+
 ### env var configuration
 - `DOCKERFILE_NAME`: *Optional.* Dockerfile name. Defaults to `Dockerfile`.
 - `REGISTRY`: *Required.* Name of the registry that kaniko will push to.
