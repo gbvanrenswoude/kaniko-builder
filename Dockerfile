@@ -11,4 +11,4 @@ COPY certs /kaniko/ssl/certs/
 COPY build.sh /build.sh
 RUN ["chmod", "+x", "/build.sh"]
 ENTRYPOINT [""]
-CMD ["sh"]
+# CMD ["sh"]
