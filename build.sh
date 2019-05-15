@@ -1,5 +1,7 @@
 #!/busybox/sh
 
+echo "live"
+
 if [ "x$DOCKERFILE_NAME" = 'x' ]; then
   DOCKERFILE_NAME="Dockerfile"
 fi
